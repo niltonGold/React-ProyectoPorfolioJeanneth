@@ -1,0 +1,17 @@
+.carddPresentacionTexto_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carddPresentacionTexto_fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.vineta {
+    /* background-color: antiquewhite; */
+    height: 23px;
+    display: flex;
+    align-items: center;
+}

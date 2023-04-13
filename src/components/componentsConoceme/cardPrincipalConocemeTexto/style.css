@@ -1,0 +1,40 @@
+.texto_conoceme_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.boton_descarga_cardPrincipalConoceme{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.icon_cardPrincipalConoceme{
+    font-size: 2rem;
+    display: flex;
+    /* background-color: aqua; */
+    align-self: center;
+}
+
+.porfolio_link_download_conoceme{
+    /* background-color: azure; */
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+}
+
+
+
+.texto_conoceme_fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.vineta_conoceme {
+    /* background-color: antiquewhite; */
+    height: 23px;
+    display: flex;
+    align-items: center;
+}

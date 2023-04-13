@@ -1,0 +1,157 @@
+.CardsContactameList_container{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+}
+
+
+
+.cardContactame_container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+
+.cardContactame {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 0 20px 20px rgba(0, 0, 0, .5);
+    transition: 1s;
+    margin-bottom: 2rem;
+}
+
+
+.cardContactame:hover {
+    z-index: 10000;
+    transform: perspective(2000px) rotate(-1.5deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5), 0 10px 100px rgba(0, 0, 0, .5);
+}
+
+
+.cardContactame .cardContactame_Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15, 1.7, .84, .58);
+    background: #000000;
+    
+}
+
+
+.cardContactame .cardContactame_Box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* .cardContactame_Box_in{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.cardContactame_texto_imagen_container {
+    position: absolute;
+    color: aliceblue;
+    font-size: xx-large;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    gap: 1rem;
+
+    word-wrap: break-word;
+
+}
+
+
+.cardContactame_texto {
+    font-weight: bold;
+    color: aliceblue;
+    /* background-color: aqua; */
+    
+}
+
+
+/* .cardContactame .cardContactame_details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+    color: #000;
+    word-wrap: break-word;
+} */
+
+
+/* .cardContactame:hover .cardContactame_Box {
+    transform: rotateY(-200deg);
+} */
+
+
+/* .cardContactame_details {
+    display: flex;
+
+    height: 100%;
+    align-self: center;
+    align-items: center;
+
+} */
+
+
+/* .enlaces {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50%;
+} */
+
+
+/* .enlaces:hover {
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
+} */
+
+
+@media (min-width : 0px) and (max-width : 570px) {
+    .cardContactame {
+        width: 200px;
+    }
+
+    .cardContactame_texto_imagen_container {
+        font-size: small;
+    }
+
+        .cardContactame_texto{
+            width: 30%;
+            font-size: small;
+        }
+    
+}
+
+@media (min-width : 571px) {
+    .cardContactame_texto_imagen_container {
+            font-size: large;
+        }
+            
+}

@@ -1,0 +1,44 @@
+.footer {
+    color: rgb(255, 255, 255);
+    width: 100%;
+    background-color: #78a4f5;
+    height: 30%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+    border-top: #0274B6 solid 3px;
+}
+
+
+.nombre_footer{
+    font-size: medium;
+}
+
+.conocimientos{
+    font-weight: bold;
+}
+
+
+.boton_descarga_footer {
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.icon_footer {
+    font-size: 2rem;
+    display: flex;
+    /* background-color: aqua; */
+    align-self: center;
+}
+
+.porfolio_link_download_footer {
+    /* background-color: azure; */
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+}

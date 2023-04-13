@@ -1,0 +1,14 @@
+.cardProyectos_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+.cardProyectos_fila {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+

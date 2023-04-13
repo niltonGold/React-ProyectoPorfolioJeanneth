@@ -1,0 +1,25 @@
+/* .CardPrincipalContactameTexto_container{
+    background-color: blue;
+} */
+
+.CardPrincipalContactameTexto_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+
+
+
+.texto_contactame_fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.vineta_contactame {
+    /* background-color: antiquewhite; */
+    height: 23px;
+    display: flex;
+    align-items: center;
+}

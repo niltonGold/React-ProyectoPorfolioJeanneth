@@ -1,0 +1,141 @@
+
+ .tabNavigator{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    /* background-color: beige; */
+}
+
+
+.tab_link_noClick{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    /* background-color: aqua; */
+}
+
+
+.tab_link_noClick:hover{
+    background-color: #c9e5ff;
+    color: #000;
+    border-bottom: solid 4px #0274B6;
+}
+
+.tab_link_cliked{
+    text-decoration: none;
+    color: #054fb1;
+    border-bottom: solid 4px #0274B6;
+}
+
+
+/*
+.link_header_enable{
+
+    background-color: azure
+    padding: 0.5rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+
+} */
+
+.iconADD-disable {
+    /* background-color: blue; */
+    /* display: flex;
+    align-self: center;
+    margin-right: 1rem;
+    opacity: 0.4;
+    pointer-events: none; */
+
+}
+
+  /* .link_header_enable:hover,
+  .link_header_enable:focus,
+  .link_header_enable:active
+   {
+      cursor: pointer;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.631);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      border: 1px solid black;
+
+
+  } */
+
+.logoDataScientContainer{
+    /* background-color: #0274B6;
+    background-image: url('../../images/imagesHeader/logoDataScientCentro.png'); */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0.5rem;
+}
+
+.logoDataScientContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logoDataScientContainer img:last-child {
+    z-index: 1;
+}
+  .dataScientLogoBorde_image {
+      width: 100%;
+      height: 100%;
+
+  }
+
+  .dataScientLogoCentro_image{
+
+    width: 100%;
+    height: 100%;
+        /* background-color: aliceblue; */
+  }
+
+
+
+  @media (prefers-reduced-motion: no-preference) {
+      .dataScientLogoBorde_image {
+          animation: dataScientLogoBorde_image-spin infinite 20s linear;
+      }
+  }
+
+
+  @keyframes dataScientLogoBorde_image-spin {
+      from {
+          transform: rotate(0deg);
+      }
+
+      to {
+          transform: rotate(360deg);
+      }
+  }
+
+
+
+
+
+
+
+
+        /* @media (prefers-reduced-motion: no-preference) {
+            .dataScientLogoCentro_image {
+                animation: dataScientLogoCentro_image-spin infinite 20s linear;
+            }
+        }
+
+
+        @keyframes dataScientLogoCentro_image-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        } */
