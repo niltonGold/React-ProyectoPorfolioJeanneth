@@ -17,7 +17,7 @@ function App() {
   let navigate = useNavigate();
   
   useEffect( () => {
-    navigate( "/inicio" );
+    navigate( "/" );
   }, [] );
 
   return (
